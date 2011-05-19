@@ -103,7 +103,8 @@ void LLTranslate::stringReplaceAll(std::string& context, const std::string& from
 //static
 BOOL LLTranslate::parseGoogleTranslate(const std::string result, std::string &translation, std::string &detectedLanguage)
 {
-	Json::Value root;
+	//Simms Fix This Later For Now We Have A VC100 Successful Compile
+	/*Json::Value root;
 	Json::Reader reader;
 	BOOL parsingSuccessful = reader.parse(result, root );
 	if ( !parsingSuccessful )
@@ -114,6 +115,7 @@ BOOL LLTranslate::parseGoogleTranslate(const std::string result, std::string &tr
 
 	translation = root[m_GoogleData].get(m_GoogleTranslation, "").asString();
 	detectedLanguage = root[m_GoogleData].get(m_GoogleLanguage, "").asString();
+	*/
 	return TRUE;
 }
 
