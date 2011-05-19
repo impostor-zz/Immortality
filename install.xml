@@ -646,13 +646,6 @@
 						<string>40db900872612615e849f17cbdfd2c27</string>
 						<key>url</key>
 						<uri>http://s3.amazonaws.com/viewer-source-downloads/install_pkgs/google-linux-20080812.tar.bz2</uri>
-				<map>
-					<key>windows</key>
-					<map>
-						<key>md5sum</key>
-						<string>38a70e2d892520ed3281b0f459e4f15f</string>
-						<key>url</key>
-						<uri>https://github.com/downloads/siana/SingularityViewer/tcmalloc-1.6-min-20110317.tar.bz2</uri>
 					</map>
 				</map>
 			</map>
@@ -851,9 +844,9 @@
 			<key>windows</key>
 			<map>
 				<key>md5sum</key>
-				<string>066e089a5d9faeaf131e1f4e4860a163</string>
+				<string>8bb0945c654b001f860c4822ab03971d</string>
 				<key>url</key>
-				<uri>scp:install-packages.lindenlab.com:/local/www/install-packages/doc/kdu-6.4.1-windows-20101123.tar.bz2</uri>
+				<uri>https://github.com/downloads/simms/ProStorm/openjpgk.tar.bz2</uri>
 				</map>
 			  </map>
 			</map>
