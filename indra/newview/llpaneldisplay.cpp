@@ -87,6 +87,11 @@
 #include "rlvhandler.h"
 // [/RLVa:KB]
 
+#if LL_MSVC
+#pragma warning( disable       : 4265 )	// "class has virtual functions, but destructor is not virtual"
+#endif
+
+
 #include <boost/regex.hpp>
 
 const F32 MAX_USER_FAR_CLIP = 512.f;

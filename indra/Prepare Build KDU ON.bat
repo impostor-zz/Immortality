@@ -1,0 +1,2 @@
+python develop.py -G vc100 configure -DLL_TESTS:BOOL=OFF -DINSTALL_PROPRIETARY:BOOL=ON -DUSE_KDU:BOOL=ON
+pause

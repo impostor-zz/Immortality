@@ -481,11 +481,16 @@ class WindowsSetup(PlatformSetup):
         'vc90' : {
             'gen' : r'Visual Studio 9 2008',
             'ver' : r'9.0'
+            },
+        'vc100' : {
+            'gen' : r'Visual Studio 10',
+            'ver' : r'10.0'
             }
         }
     gens['vs2003'] = gens['vc71']
     gens['vs2005'] = gens['vc80']
     gens['vs2008'] = gens['vc90']
+    gens['vs2010'] = gens['vc100']
 
     search_path = r'C:\windows'
     exe_suffixes = ('.exe', '.bat', '.com')
@@ -723,8 +728,8 @@ Options:
   -m32 | -m64           build architecture (32-bit or 64-bit)
   -N | --no-distcc      disable use of distcc
   -G | --generator=NAME generator name
-                        Windows: VC71 or VS2003 (default), VC80 (VS2005) or 
-                          VC90 (VS2008)
+                        Windows: VC71 or VS2003 (default), VC80 (VS2005) 
+                          VC90 (VS2008), or VC100 (VS2010)
                         Mac OS X: Xcode (default), Unix Makefiles
                         Linux: Unix Makefiles (default), KDevelop3
   -p | --project=NAME   set the root project name. (Doesn't effect makefiles)
@@ -741,6 +746,9 @@ Command-options for "configure":
   -DVIEWER:BOOL=OFF        Don't configure the viewer
   -DPACKAGE:BOOL=ON        Create "package" target to make installers
   -DLOCALIZESETUP:BOOL=ON  Create one win_setup target per supported language
+  -DLL_TESTS:BOOL=OFF      Don't generate unit test projects
+  -DEXAMPLEPLUGIN:BOOL=OFF Don't generate example plugin project
+  -VISTA_ICON:BOOL=ON      Allow pre-2008 VS to use vista-optimized resource file. (Requires updated rcdll.dll!)
 
 Examples:
   Set up a viewer-only project for your system:

@@ -339,9 +339,9 @@
 					<key>windows</key>
 					<map>
 						<key>md5sum</key>
-						<string>3d4bd78f30f118c6e35f8d367ec25fc2</string>
+						<string>17f89b854959b4d728be832d9c8184e4</string>
 						<key>url</key>
-						<uri>http://downloads.phoenixviewer.com/boost-1.43.0-windows-20100902.tar.bz2</uri>
+						<uri>https://github.com/downloads/NickyPerian/imprudence/boost_1_45_VC100_libs_inc_patch4073.tar.bz2</uri>
 					</map>
 				</map>
 			</map>
@@ -646,6 +646,13 @@
 						<string>40db900872612615e849f17cbdfd2c27</string>
 						<key>url</key>
 						<uri>http://s3.amazonaws.com/viewer-source-downloads/install_pkgs/google-linux-20080812.tar.bz2</uri>
+				<map>
+					<key>windows</key>
+					<map>
+						<key>md5sum</key>
+						<string>38a70e2d892520ed3281b0f459e4f15f</string>
+						<key>url</key>
+						<uri>https://github.com/downloads/siana/SingularityViewer/tcmalloc-1.6-min-20110317.tar.bz2</uri>
 					</map>
 				</map>
 			</map>
@@ -811,11 +818,44 @@
 					<key>windows</key>
 					<map>
 						<key>md5sum</key>
-						<string>8a6390824f5ad880d164cffafc5f3eeb</string>
+						<string>91e081c4b7b4949c4e53849182a42370</string>
 						<key>url</key>
-						<uri>http://downloads.phoenixviewer.com/json-windows-20100902.tar.bz2</uri>
+						<uri>https://github.com/downloads/siana/SingularityViewer/jsoncpp-0.5.0-windows-20110320.tar.bz2</uri>
 					</map>
 				</map>
+			</map>
+			<key>kdu</key>
+			<map>
+				<key>copyright</key>
+				<string>on file</string>
+				<key>description</key>
+				<string>Kakadu (KDU) JPEG-2000 decoder library. </string>
+				<key>license</key>
+				<string>kdu</string>
+				<key>packages</key>
+			<map>
+			<key>darwin</key>
+			<map>
+				<key>md5sum</key>
+				<string>8261994de5af6581e08c26fefe1b2810</string>
+				<key>url</key>
+				<uri>scp:install-packages.lindenlab.com:/local/www/install-packages/doc/kdu-6.4.1-darwin-20101123.tar.bz2</uri>
+			</map>
+			<key>linux</key>
+			<map>
+				<key>md5sum</key>
+				<string>ed3e58899a424684dad49c94ba3813e7</string>
+				<key>url</key>
+				<uri>scp:install-packages.lindenlab.com:/local/www/install-packages/doc/kdu-6.4.1-linux-20101124.tar.bz2</uri>
+			</map>
+			<key>windows</key>
+			<map>
+				<key>md5sum</key>
+				<string>066e089a5d9faeaf131e1f4e4860a163</string>
+				<key>url</key>
+				<uri>scp:install-packages.lindenlab.com:/local/www/install-packages/doc/kdu-6.4.1-windows-20101123.tar.bz2</uri>
+				</map>
+			  </map>
 			</map>
 			<key>libmono</key>
 			<map>
@@ -961,9 +1001,9 @@
 					<key>windows</key>
 					<map>
 						<key>md5sum</key>
-						<string>7cc9626ff4ac035f8605c996d18ea6a9</string>
+						<string>999b265a3af47eb13e9a380d042a1763</string>
 						<key>url</key>
-						<uri>http://viewer-source-downloads.s3.amazonaws.com/install_pkgs/llqtwebkit-windows-qt4.7.1-20110302.tar.bz2</uri>
+						<uri>https://github.com/downloads/siana/SingularityViewer/llqtwebkit-4.7.1-windows-20110320.tar.bz2</uri>
 					</map>
 				</map>
 			</map>
