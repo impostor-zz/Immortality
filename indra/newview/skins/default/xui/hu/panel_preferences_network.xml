@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<panel label="Hálózat" name="network">
+	<text name="text_box">
+		Maximális sávszélesség:
+	</text>
+  <slider name="max_bandwidth" left_delta="125"/>
+  <text name="text_box2">
+		kbps (kbit/mp)
+	</text>
+	<text name="cache_size_label_l">
+		Gyorsítótár mérete:
+	</text>
+  <slider name="cache_size" left_delta="100"/>
+  <text name="text_box5">
+		MB
+	</text>
+	<text name="cache_location_label">
+		Gyorsítótár helye:
+	</text>
+  <button name="open_cache_loc" label="Nyissa meg a" width="80"/>
+  <button name="set_cache" label="Beállít" label_selected="Beállít" width="70" left_delta="60"/>
+  <button name="reset_cache" label="Visszaállít" label_selected="Beállít" left_delta="50"/>
+  <button name="open_soundcache_loc" label="Nyissa meg a" width="80"/>
+  <button name="set_sound_cache" label="Beállít" label_selected="Beállít" width="70" left_delta="60"/>
+  <button name="reset_sound_cache" label="Visszaállít" label_selected="Beállít" left_delta="50"/>
+  <button name="open_chat_logs_loc" label="Nyissa meg a" width="80"/>
+  <button name="set_chat_logs" label="Beállít" label_selected="Beállít" width="70" left_delta="60"/>
+  <button name="reset_chat_logs" label="Visszaállít" label_selected="Beállít" left_delta="50"/>
+  <button name="open_crash_logs_loc" label="Nyissa meg a" width="110"/>
+  <text name="cannot_change_crash_label" left_delta="90">
+    (Nem módosítható)
+  </text>
+  <button name="open_user_loc" label="Nyissa meg a" width="110"/>
+  <text name="cannot_change_user_label" left_delta="90">
+    (Nem módosítható)
+  </text>
+  <button name="clear_cache" label="Gyorsítótár kiürítése" width="125" left_delta="150"/>
+  <button name="clear_inv_cache" left_delta="140"/>
+  <check_box name="connection_port_enabled" label="Egyedi port alkalmazása"/>
+	<spinner name="connection_port" label="Port száma:"/>
+</panel>

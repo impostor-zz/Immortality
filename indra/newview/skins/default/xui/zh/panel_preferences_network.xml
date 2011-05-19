@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel label="网络" name="network">
+	<text name="text_box">
+		最大带宽:
+	</text>
+  <slider name="max_bandwidth" left_delta="50"/>
+  <text name="text_box2">
+		kbps (每秒kb数)
+	</text>
+	<text name="cache_size_label_l">
+		磁盘高速缓存大小:
+	</text>
+  <slider name="cache_size" left_delta="95"/>
+  <text name="text_box5">
+		兆字节
+	</text>
+	<text name="cache_location_label">
+		磁盘缓存位置:
+	</text>
+  <button name="open_cache_loc" label="开放" width="80" tool_tip="打开此文件夹的位置"/>
+  <button name="set_cache" label="设置" label_selected="设置" width="80" left_delta="60" tool_tip="设置新的缓存位置"/>
+  <button name="reset_cache" label="重置" label_selected="设置" width="80" left_delta="60" tool_tip="将缓存位置重置为默认值"/>
+  <text name="sound_cache_location_label">
+    声音的缓存的位置:
+  </text>
+  <button name="open_soundcache_loc" label="开放" width="80" tool_tip="打开此文件夹的位置"/>
+  <button name="set_sound_cache" label="设置" label_selected="设置" width="80" left_delta="60" tool_tip="设置新的缓存位置"/>/>
+  <button name="reset_sound_cache" label="重置" label_selected="设置" width="80" left_delta="60" tool_tip="将缓存位置重置为默认值"/>
+  <text name="chat_location_label">
+    聊天日志文件的位置:
+  </text>
+  <button name="open_chat_logs_loc" label="开放" width="80" tool_tip="打开此文件夹的位置"/>
+  <button name="set_chat_logs" label="设置" label_selected="设置" width="80" left_delta="60" tool_tip="设置新的日志文件位置"/>/>
+  <button name="reset_chat_logs" label="重置" label_selected="设置" width="80" left_delta="60" tool_tip="重置为默认的日志文件位置"/>
+  <text name="crash_location_label">
+    崩溃日志文件的位置:
+  </text>
+  <button name="open_crash_logs_loc" label="开放" width="80" tool_tip="打开此文件夹的位置"/>
+  <text name="cannot_change_crash_label" left_delta="85">
+    (不能更改)
+  </text>
+  <text name="user_location_label">
+    用户设置文件的位置:
+  </text>
+  <button name="open_user_loc" label="开放" width="80" tool_tip="打开此文件夹的位置"/>
+  <text name="cannot_change_user_label" left_delta="85">
+    (不能更改)
+  </text>
+  <button name="clear_cache" label="清除缓存"/>
+  <button name="clear_inv_cache" label="清点清楚缓存" width="110" left_delta="100"/>
+  <check_box name="connection_port_enabled" label="自定义连接端口"/>
+	<spinner name="connection_port" label="端口号:"/>
+</panel>

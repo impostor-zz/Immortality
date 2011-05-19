@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<panel name="network" label="Ağ Bağlantısı">
+	<text name="text_box">
+		Maksimum bant genişliği:
+	</text>
+  <slider name="max_bandwidth" left_delta="125"/>
+  <text name="text_box2">
+		kbps (saniyedeki kilobit)
+	</text>
+	<text name="cache_size_label_l">
+		Disk ön bellek boyutu:
+	</text>
+	<text name="text_box5">
+		MB
+	</text>
+	<text name="cache_location_label">
+		Disk ön bellek lokasyonu:
+	</text>
+  <button name="open_cache_loc" label="Açık" width="70"/>
+  <button name="set_cache" label="Düzenle" label_selected="Düzenle" width="90" left_delta="50"/>
+  <button name="reset_cache" label="Yenile" label_selected="Düzenle" width="80" left_delta="70"/>
+  <button name="open_soundcache_loc" label="Açık" width="70"/>
+  <button name="set_sound_cache" label="Düzenle" label_selected="Düzenle" width="90" left_delta="50"/>
+  <button name="reset_sound_cache" label="Yenile" label_selected="Düzenle" width="80" left_delta="70"/>
+  <button name="open_chat_logs_loc" label="Açık" width="70"/>
+  <button name="set_chat_logs" label="Düzenle" label_selected="Düzenle" width="90" left_delta="50"/>
+  <button name="reset_chat_logs" label="Yenile" label_selected="Düzenle" width="80" left_delta="70"/>
+  <button name="open_crash_logs_loc" label="Açık" width="70"/>
+  <text name="cannot_change_crash_label" left_delta="60">
+    (Değiştirebilir miyim)
+  </text>
+  <button name="open_user_loc" label="Açık" width="70"/>
+  <text name="cannot_change_user_label" left_delta="60">
+    (Değiştirebilir miyim)
+  </text>
+  <button name="clear_cache"  label="Ön belleği temizle" width="120" left_delta="175"/>
+  <button name="clear_inv_cache" left_delta="125"/>
+  <check_box name="connection_port_enabled" label="Özel port bağlantısı"/>
+	<spinner name="connection_port" label="Port numarası:"/>
+</panel>

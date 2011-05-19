@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel label="ネットワーク" name="network">
+	<text name="text_box">
+		最大帯域幅：
+	</text>
+  <slider name="max_bandwidth" left_delta="65"/>
+  <text name="text_box2">
+		kbps
+	</text>
+	<text name="cache_size_label_l">
+		キャッシュ：
+	</text>
+  <slider name="cache_size" left_delta="65"/>
+  <text name="text_box5">
+		MB
+	</text>
+	<text name="cache_location_label">
+		キャッシュの場所：
+	</text>
+  <button name="open_cache_loc" label="オープン" width="80" tool_tip="このフォルダの場所を開く"/>
+  <button name="set_cache" label="設定" label_selected="設定" width="80" left_delta="60" tool_tip="設定の新しいキャッシュの場所"/>
+  <button name="reset_cache" label="ﾘｾｯﾄ" label_selected="設定" width="80" left_delta="60" tool_tip="キャッシュの場所を既定値にリセットします。"/>
+  <text name="sound_cache_location_label">
+    サウンドのキャッシュの場所：
+  </text>
+  <button name="open_soundcache_loc" label="オープン" width="80" tool_tip="このフォルダの場所を開く"/>
+  <button name="set_sound_cache" label="設定" label_selected="設定" width="80" left_delta="60" tool_tip="設定の新しいキャッシュの場所"/>/>
+  <button name="reset_sound_cache" label="ﾘｾｯﾄ" label_selected="設定" width="80" left_delta="60" tool_tip="キャッシュの場所を既定値にリセットします。"/>
+  <text name="chat_location_label">
+    チャット ログ ファイルの場所：
+  </text>
+  <button name="open_chat_logs_loc" label="オープン" width="80" tool_tip="このフォルダの場所を開く"/>
+  <button name="set_chat_logs" label="設定" label_selected="設定" width="80" left_delta="60" tool_tip="設定の新しいログ ファイルの場所"/>/>
+  <button name="reset_chat_logs" label="ﾘｾｯﾄ" label_selected="設定" width="80" left_delta="60" tool_tip="リセット ログ ファイルの場所をデフォルト"/>
+  <text name="crash_location_label" width="250">
+    ログ ファイルの場所がクラッシュします。：
+  </text>
+  <button name="open_crash_logs_loc" label="オープン" width="80" tool_tip="このフォルダの場所を開く"/>
+  <text name="cannot_change_crash_label" left_delta="60">
+    (変更することができます。)
+  </text>
+  <text name="user_location_label">
+    ユーザー設定のファイルの場所：
+  </text>
+  <button name="open_user_loc" label="オープン" width="80" tool_tip="このフォルダの場所を開く"/>
+  <text name="cannot_change_user_label" left_delta="60">
+    (変更することができます。)
+  </text>
+  <button label="クリア" name="clear_cache" left_delta="150"/>
+  <button name="clear_inv_cache" label="明確なインベントリ キャッシュ" width="200" left_delta="100"/>
+  <check_box label="カスタム・ポート接続" name="connection_port_enabled"/>
+	<spinner label="ポート番号：" name="connection_port"/>
+</panel>

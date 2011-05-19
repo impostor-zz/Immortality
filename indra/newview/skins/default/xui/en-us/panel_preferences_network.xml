@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<panel border="true" bottom="-409" enabled="true" follows="left|top|right|bottom"
+     height="408" label="Network &amp; Folders" left="102" mouse_opaque="true" name="network"
+     width="517">
+	<text type="string" length="1" bg_visible="false" border_drop_shadow_visible="false" border_visible="false"
+	     bottom="-20" drop_shadow_visible="true" enabled="true" follows="left|top"
+	     font="SansSerifSmall" h_pad="0" halign="left" height="10" left="12"
+	     mouse_opaque="false" name="text_box" v_pad="0" width="200">
+		Maximum Bandwidth:
+	</text>
+	<slider bottom_delta="-5" can_edit_text="true"
+	     decimal_digits="0" enabled="true" follows="left|top" height="15"
+	     increment="10" initial_val="1500" left_delta="110" max_val="10000" min_val="50"
+	     mouse_opaque="true" name="max_bandwidth" show_text="true" value="500"
+	     width="187" />
+	<text type="string" length="1" bg_visible="false" border_drop_shadow_visible="false" border_visible="false"
+	     bottom_delta="4" drop_shadow_visible="true" enabled="true"
+	     follows="left|top" font="SansSerifSmall" h_pad="0" halign="left"
+	     height="10" left_delta="190" mouse_opaque="false" name="text_box2"
+	     v_pad="0" width="200">
+		Kilobits per second
+	</text>
+	<text type="string" length="1" bg_visible="false" border_drop_shadow_visible="false" border_visible="false"
+	     bottom_delta="-25" drop_shadow_visible="true" enabled="true"
+	     follows="left|top" font="SansSerifSmall" h_pad="0" halign="left"
+	     height="10" left="12" mouse_opaque="false" name="cache_size_label_l"
+	     v_pad="0" width="200">
+		Disk Cache Size:
+	</text>
+	<slider bottom_delta="-5" can_edit_text="true"
+	     decimal_digits="0" enabled="true" follows="left|top" height="15"
+	     increment="2" initial_val="50" left_delta="110" max_val="1024" min_val="64"
+	     mouse_opaque="true" name="cache_size" show_text="true" width="180" />
+	<text type="string" length="1" bg_visible="false" border_drop_shadow_visible="false" border_visible="false"
+	     bottom_delta="4" drop_shadow_visible="true" enabled="true"
+	     follows="left|top" font="SansSerifSmall" h_pad="0" halign="left"
+	     height="10" left_delta="185" mouse_opaque="false" name="text_box5"
+	     v_pad="0" width="200">
+		Mega Bytes
+	</text>
+	<text type="string" length="1" bg_visible="false" border_drop_shadow_visible="false" border_visible="false"
+	     bottom_delta="-25" drop_shadow_visible="true" enabled="true"
+	     follows="left|top" font="SansSerifSmall" h_pad="0" halign="left"
+	     height="10" left="12" mouse_opaque="false" name="cache_location_label"
+	     v_pad="0" width="200">
+		Disk Cache Location:
+	</text>
+	<line_editor bevel_style="in" border_style="line" border_thickness="1" bottom_delta="-28"
+	     enabled="false" follows="left|top|right" font="SansSerif"
+	     handle_edit_keys_directly="true" height="20" left_delta="7"
+	     max_length="4096" mouse_opaque="true" name="cache_location"
+	     select_all_on_focus_received="false" width="300" word_wrap="false" />
+	<button bottom_delta="-2" enabled="true" follows="left|top|right" font="SansSerif"
+	     halign="center" height="22" label="Open" left_delta="285"
+	     mouse_opaque="true" name="open_cache_loc" scale_image="true" width="85"
+		tool_tip="Browse to this path."/>
+	<button bottom_delta="0" enabled="true" follows="left|top|right" font="SansSerif"
+	     halign="center" height="22" label="Set" label_selected="Set" left_delta="65"
+	     mouse_opaque="true" name="set_cache" scale_image="true" width="65"
+  tool_tip="Set new cache location."/>
+	<button bottom_delta="0" enabled="true" follows="left|top|right"
+	     font="SansSerif" halign="center" height="22" label="Reset"
+	     label_selected="Set" left_delta="45" mouse_opaque="true"
+	     name="reset_cache" scale_image="true" width="95"
+  tool_tip="Reset cache location to default."/>
+	<text type="string" length="1" bg_visible="false" border_drop_shadow_visible="false" border_visible="false"
+	     bottom_delta="-10" drop_shadow_visible="true" enabled="true"
+	     follows="left|top" font="SansSerifSmall" h_pad="0" halign="left"
+	     height="10" left="12" mouse_opaque="false" name="sound_cache_location_label"
+	     v_pad="0" width="200">
+		Sound Cache Location:
+	</text>
+	<line_editor bevel_style="in" border_style="line" border_thickness="1" bottom_delta="-28"
+	     enabled="false" follows="left|top|right" font="SansSerif"
+	     handle_edit_keys_directly="true" height="20" left_delta="7"
+	     max_length="4096" mouse_opaque="true" name="sound_cache_location"
+	     select_all_on_focus_received="false" width="300" word_wrap="false" />
+	<button bottom_delta="-2" enabled="true" follows="left|top|right" font="SansSerif"
+	     halign="center" height="22" label="Open" left_delta="285"
+	     mouse_opaque="true" name="open_soundcache_loc" scale_image="true" width="85"
+		tool_tip="Browse to this path."/>
+	<button bottom_delta="0" enabled="true" follows="left|top|right" font="SansSerif"
+	     halign="center" height="22" label="Set" label_selected="Set" left_delta="65"
+	     mouse_opaque="true" name="set_sound_cache" scale_image="true" width="65"
+tool_tip="Set new cache location."/>
+	<button bottom_delta="0" enabled="true" follows="left|top|right"
+	     font="SansSerif" halign="center" height="22" label="Reset"
+	     label_selected="Set" left_delta="45" mouse_opaque="true"
+	     name="reset_sound_cache" scale_image="true" width="95"
+tool_tip="Reset cache location to default."/>
+  <text type="string" length="1" bg_visible="false" border_drop_shadow_visible="false" border_visible="false"
+	     bottom_delta="-10" drop_shadow_visible="true" enabled="true"
+	     follows="left|top" font="SansSerifSmall" h_pad="0" halign="left"
+	     height="10" left="12" mouse_opaque="false" name="chat_location_label"
+	     v_pad="0" width="200">
+    Chat Log Files Location:
+  </text>
+  <line_editor bevel_style="in" border_style="line" border_thickness="1" bottom_delta="-28"
+	     enabled="false" follows="left|top|right" font="SansSerif"
+	     handle_edit_keys_directly="true" height="20" left_delta="7"
+	     max_length="4096" mouse_opaque="true" name="chat_logs_location"
+	     select_all_on_focus_received="false" width="300" word_wrap="false" />
+  <button bottom_delta="-2" enabled="true" follows="left|top|right" font="SansSerif"
+	     halign="center" height="22" label="Open" left_delta="285"
+	     mouse_opaque="true" name="open_chat_logs_loc" scale_image="true" width="85"
+		tool_tip="Browse to this path."/>
+  <button bottom_delta="0" enabled="true" follows="left|top|right" font="SansSerif"
+	     halign="center" height="22" label="Set" label_selected="Set" left_delta="65"
+	     mouse_opaque="true" name="set_chat_logs" scale_image="true" width="65"
+  tool_tip="Set new log file location."/>
+  <button bottom_delta="0" enabled="true" follows="left|top|right"
+	     font="SansSerif" halign="center" height="22" label="Reset"
+	     label_selected="Set" left_delta="45" mouse_opaque="true"
+	     name="reset_chat_logs" scale_image="true" width="95"
+  tool_tip="Reset log file location to default."/>
+	<text type="string" length="1" bg_visible="false" border_drop_shadow_visible="false" border_visible="false"
+	     bottom_delta="-10" drop_shadow_visible="true" enabled="true"
+	     follows="left|top" font="SansSerifSmall" h_pad="0" halign="left"
+	     height="10" left="12" mouse_opaque="false" name="crash_location_label"
+	     v_pad="0" width="200">
+		Crash Log Files Location:
+	</text>
+	<line_editor bevel_style="in" border_style="line" border_thickness="1" bottom_delta="-28"
+	     enabled="false" follows="left|top|right" font="SansSerif"
+	     handle_edit_keys_directly="true" height="20" left_delta="7"
+	     max_length="4096" mouse_opaque="true" name="crash_logs_location"
+	     select_all_on_focus_received="false" width="300" word_wrap="false" />
+	<button bottom_delta="-2" enabled="true" follows="left|top|right" font="SansSerif"
+	     halign="center" height="22" label="Open" left_delta="285"
+	     mouse_opaque="true" name="open_crash_logs_loc" scale_image="true" width="85"
+		tool_tip="Browse to this path."/>
+  <text type="string" length="1" bg_visible="false" border_drop_shadow_visible="false" border_visible="false"
+	     bottom_delta="10" drop_shadow_visible="true" enabled="true"
+	     follows="left|top" font="SansSerifSmall" h_pad="0" halign="left"
+	     height="10" left="12" left_delta="80" mouse_opaque="false" name="cannot_change_crash_label"
+	     v_pad="0" width="200" visible="true">
+    (Can not change)
+  </text>
+  <text type="string" length="1" bg_visible="false" border_drop_shadow_visible="false" border_visible="false"
+	     bottom_delta="-20" drop_shadow_visible="true" enabled="true"
+	     follows="left|top" font="SansSerifSmall" h_pad="0" halign="left"
+	     height="10" left="12" mouse_opaque="false" name="user_location_label"
+	     v_pad="0" width="200">
+    User Settings Files Location:
+  </text>
+  <line_editor bevel_style="in" border_style="line" border_thickness="1" bottom_delta="-28"
+	     enabled="false" follows="left|top|right" font="SansSerif"
+	     handle_edit_keys_directly="true" height="20" left_delta="7"
+	     max_length="4096" mouse_opaque="true" name="user_setting_location"
+	     select_all_on_focus_received="false" width="300" word_wrap="false" />
+  <button bottom_delta="-2" enabled="true" follows="left|top|right" font="SansSerif"
+	     halign="center" height="22" label="Open" left_delta="285"
+	     mouse_opaque="true" name="open_user_loc" scale_image="true" width="85"
+		tool_tip="Browse to this path."/>
+  <text type="string" length="1" bg_visible="false" border_drop_shadow_visible="false" border_visible="false"
+	     bottom_delta="10" drop_shadow_visible="true" enabled="true"
+	     follows="left|top" font="SansSerifSmall" h_pad="0" halign="left"
+	     height="10" left="12" left_delta="80" mouse_opaque="true" name="cannot_change_user_label"
+	     v_pad="0" width="200" visible="true">
+    (Can not change)
+  </text>
+	<check_box bottom="-165" bottom_delta="-50"
+	     enabled="true" follows="left|top" font="SansSerifSmall" height="16"
+	     initial_value="false" label="Custom Port:" left="6"
+	     mouse_opaque="true" name="connection_port_enabled" radio_style="false"
+	     width="128" />
+	<spinner bottom_delta="-20" decimal_digits="0" enabled="true" follows="left|top" height="16"
+	     increment="1" initial_val="13000" label="" label_width="75"
+	     left_delta="20" max_val="13050" min_val="13000" mouse_opaque="true"
+	     name="connection_port" width="64" />
+  <button bottom="-55" bottom_delta="20" enabled="true" follows="left|top"
+	     font="SansSerif" halign="center" height="22" label="Clear Cache" left="340"
+	     left_delta="195" mouse_opaque="true" name="clear_cache" scale_image="true"
+	     width="90" />
+  <button bottom="-55" bottom_delta="-0" enabled="false" follows="left|top"
+	     font="SansSerif" halign="center" height="22" label="Clear Inventory Cache" left="340"
+	     left_delta="110" mouse_opaque="true" name="clear_inv_cache" scale_image="true"
+	     width="155" tool_tip="You must be logged in to use the inventory clear cache." />
+	<check_box bottom_delta="-40" enabled="true"
+	     follows="left|top" font="SansSerifSmall" height="16" initial_value="false"
+	     label="Enable SOCKS 5 Proxy" left="6" mouse_opaque="true"
+	     name="socks5_proxy_enabled" radio_style="false" width="256" />
+
+	<text type="string" length="1" bg_visible="false" border_drop_shadow_visible="false" border_visible="false"
+	     bottom_delta="-15" drop_shadow_visible="true" enabled="true"
+	     follows="left|top" font="SansSerifSmall" h_pad="0" halign="left"
+	     height="10" left="12" mouse_opaque="false" name="socks5_type_label"
+	     v_pad="0" width="128">
+		Http Proxy:
+	</text>
+  <radio_group bottom_delta="-8" draw_border="false" follows="left|top" height="20" left="12"
+	     name="socks5_http_proxy_type" width="380" >
+    <radio_item height="20" bottom="0" left="100" name="None" width="50"
+		  tool_tip="No Http Proxy">
+      None
+    </radio_item>
+	<radio_item height="20" bottom="0" left="170" name="Socks" width="50"
+		  tool_tip="Use Socks for Http Proxy">
+      Socks
+    </radio_item>
+    <radio_item height="20" bottom="0" left="250" name="Web" width="50"
+		  tool_tip="Use web proxy for Http Proxy">
+      Web
+    </radio_item>
+  </radio_group>
+	<text type="string" length="1" bg_visible="false" border_drop_shadow_visible="false" border_visible="false"
+	     bottom_delta="-20" drop_shadow_visible="true" enabled="true"
+	     follows="left|top" font="SansSerifSmall" h_pad="0" halign="left"
+	     height="10" left="12" mouse_opaque="false" name="socks5_host_label"
+	     v_pad="0" width="128">
+		Socks 5 Host:
+	</text>
+	<line_editor bottom_delta="-6" enabled="true" follows="left|top" font="SansSerif"
+	     height="20" left="90" name="socks5_proxy_host"
+	     tool_tip="The name or IP address of the SOCKS5 proxy you would like to use"
+	     width="300" />
+
+	<spinner bottom_delta="-2" decimal_digits="0"
+	     enabled="true" follows="left|top" height="20" increment="1"
+	     initial_val="80" label="Port:" label_width="30" left_delta="305"
+	     max_val="12000" min_val="10" mouse_opaque="true" name="socks5_proxy_port"
+	     width="90" />
+
+	<text type="string" length="1" bg_visible="false" border_drop_shadow_visible="false" border_visible="false"
+	     bottom_delta="-15" drop_shadow_visible="true" enabled="true"
+	     follows="left|top" font="SansSerifSmall" h_pad="0" halign="left"
+	     height="10" left="12" mouse_opaque="false" name="socks5_auth_label"
+	     v_pad="0" width="128">
+		Socks5 Authentication:
+	</text>
+
+ <radio_group bottom_delta="-6" draw_border="false" follows="left|top" height="20" left="12"
+	     name="socks5_auth" width="420">
+	     <radio_item bottom="0" height="20" left_delta="85" name="None" width="50"
+		  tool_tip="No authentication">
+      None
+    </radio_item>
+	     <radio_item bottom="0" height="20" left_delta="40" name="UserPass" width="50"
+		  tool_tip="Username / Password authentication">
+      Username/Password
+    </radio_item>
+  </radio_group>
+
+	<text type="string" length="1" bg_visible="false" border_drop_shadow_visible="false" border_visible="false"
+	     bottom_delta="-16" drop_shadow_visible="true" enabled="true"
+	     follows="left|top" font="SansSerifSmall" h_pad="0" halign="left"
+	     height="10" left="12" mouse_opaque="false" name="socks5_username_label"
+	     v_pad="0" width="128">
+		Username:
+	</text>
+	<line_editor bottom_delta="-8" enabled="true" follows="left|top" font="SansSerif"
+	     height="20" left="70" name="socks5_proxy_username"
+	     tool_tip="Username for the Socks5 proxy"
+	     width="175" />
+
+	<text type="string" length="1" bg_visible="false" border_drop_shadow_visible="false" border_visible="false"
+	     bottom_delta="8" drop_shadow_visible="true" enabled="true"
+	     follows="left|top" font="SansSerifSmall" h_pad="0" halign="left"
+	     height="10" left="250" mouse_opaque="false" name="socks5_password_label"
+	     v_pad="0" width="128">
+		Password:
+	</text>
+	<line_editor bottom_delta="-8" enabled="true" follows="left|top" font="SansSerif"
+	     height="20" left="310" name="socks5_proxy_password"
+	     tool_tip="Password for the Socks5 proxy"
+	     width="175" />
+</panel>

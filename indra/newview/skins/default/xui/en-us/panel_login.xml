@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<panel bottom="0" follows="left|top|right|bottom" height="600" left="0"
+     mouse_opaque="true" name="panel_login" width="800">
+	<web_browser border_visible="false" bottom="0" follows="top|left|bottom|right" left="0"
+	     name="login_html" right="-1"
+	     start_url="data:text/html,%3Chtml%3E%3Chead%3E%3C/head%3E%3Cbody bgcolor=%22#000000%22 text=%22ffffff%22%3E%3Ch1%3E%3Ctt%3Eloading...%3C/tt%3E%3C/h1%3E %3C/body%3E %3C/html%3E"
+	     top="-1" />
+	<string name="real_url">
+		http://phoenixviewer.com/app/login/
+	</string>
+	<string name="forgot_password_url">
+		http://secondlife.com/account/request.php
+	</string>
+	<text bg_visible="false" border_drop_shadow_visible="false" border_visible="false"
+	     bottom="54" drop_shadow_visible="true" follows="left|bottom"
+	     font="SansSerif" h_pad="0" halign="left" height="16"
+	     left="10" mouse_opaque="true" name="first_name_text" v_pad="0" width="120">
+		First Name:
+	</text>
+	<combo_box bevel_style="in" border_style="line" border_thickness="1" bottom_delta="-24"
+	     font="SansSerif" handle_edit_keys_directly="true" height="20" left_delta="-1"
+       max_chars="31" mouse_opaque="true" name="first_name_combo" label="First or single name"
+       select_all_on_focus_received="true" width="120" allow_text_entry="true" 
+       tool_tip="Enter your account's first or only name here."/>
+	<check_box bottom="10" control_name="RememberName"
+         follows="left|bottom" font="SansSerifSmall" height="13"
+	     initial_value="true" label="Remember resident name"
+	     left_delta="-3" mouse_opaque="true" name="remember_name_check" width="158" />
+	<text bg_visible="false" border_drop_shadow_visible="false" border_visible="false"
+	     bottom="54" drop_shadow_visible="true" follows="left|bottom"
+	     font="SansSerif" h_pad="0" halign="left" height="16"
+	     left_delta="134" mouse_opaque="true" name="last_name_text" v_pad="0" width="120">
+		Last Name:
+	</text>
+	<line_editor bevel_style="in" border_style="line" border_thickness="1" bottom_delta="-24"
+	     follows="left|bottom" font="SansSerifSmall" handle_edit_keys_directly="true"
+	     height="20" left_delta="-1" max_length="31" mouse_opaque="true" label="Last Name or Resident"
+	     name="last_name_edit" select_all_on_focus_received="true" width="130" 
+       tool_tip="Enter your account's last name. Enter &quot;Resident&quot; if you don't have one."/>
+  <text bg_visible="false" border_drop_shadow_visible="false" border_visible="false"
+	     bottom="54" drop_shadow_visible="true" follows="left|bottom"
+	     font="SansSerif" h_pad="0" halign="left" height="16"
+	     left_delta="141" mouse_opaque="true" name="password_text" v_pad="0" width="120">
+		Password:
+	</text>
+	<line_editor bevel_style="in" border_style="line" border_thickness="1" bottom_delta="-24"
+	     follows="left|bottom" font="SansSerifSmall" handle_edit_keys_directly="true"
+	     height="20" left_delta="-1" max_length="16" mouse_opaque="true"
+	     name="password_edit" select_all_on_focus_received="true" width="120" />
+	<check_box bottom="10" control_name="RememberPassword"
+         follows="left|bottom" font="SansSerifSmall" height="13"
+	     initial_value="false" label="Remember password"
+	     left_delta="-3" mouse_opaque="true" name="remember_check" width="138" />
+	<text bg_visible="false" border_drop_shadow_visible="false" border_visible="false"
+	     bottom="54" drop_shadow_visible="true" follows="left|bottom"
+	     font="SansSerifSmall" h_pad="0" halign="left" height="16"
+	     left_delta="134" mouse_opaque="true" name="grids_combo_text" v_pad="0" width="120">
+		Grid:
+	</text>
+	<combo_box allow_text_entry="false" bottom_delta="-24" follows="left|bottom" height="20"
+	     left_delta="-1" mouse_opaque="true" name="grids_combo" width="120" />
+	<button bottom_delta="-3" follows="left|bottom" font="SansSerif" halign="center"
+	     height="24" width="60" label="Grids" label_selected="Grids"
+	     left_delta="131" mouse_opaque="true" name="grids_btn" scale_image="TRUE"/>
+	<text bg_visible="false" border_drop_shadow_visible="false" border_visible="false"
+	     bottom="54" drop_shadow_visible="true" follows="left|bottom"
+	     font="SansSerifSmall" h_pad="0" halign="left" height="16"
+	     left_delta="70" mouse_opaque="true" name="start_location_text" v_pad="0" width="120">
+		Start Location:
+	</text>
+	<combo_box allow_text_entry="true" bevel_style="in" border_style="line" border_thickness="1" 
+	     follows="left|bottom" font="SansSerif" handle_edit_keys_directly="true"
+	     height="20" hidden="false" left_delta="-1" bottom_delta="-24" max_chars="256"  mouse_opaque="true"
+	     name="regionuri_edit" select_all_on_focus_received="true" width="240" />
+	<combo_box allow_text_entry="true" bottom_delta="-1" left_delta="0" follows="left|bottom" height="20"
+	     max_chars="128" mouse_opaque="true" name="start_location_combo" width="155">
+		<combo_item name="MyHome" value="My Home">
+			My Home
+		</combo_item>
+		<combo_item name="MyLastLocation" value="My Last Location">
+			My Last Location
+		</combo_item>
+		<combo_item name="Typeregionname" value="&lt;Type region name&gt;">
+			&lt;Type region name&gt;
+		</combo_item>
+	</combo_box>
+	<button bottom_delta="-3" follows="left|bottom" font="SansSerif" halign="center"
+	     height="24" label="Log In" label_selected="Log In"
+	     left_delta="166" mouse_opaque="true" name="connect_btn" scale_image="TRUE"
+	     width="100" />
+
+	<text bg_visible="false" border_drop_shadow_visible="false" border_visible="false"
+	     bottom="55" drop_shadow_visible="true" follows="left|bottom"
+	     font="SansSerifSmall" font-style="UNDERLINE" h_pad="0" halign="right" height="16"
+	     left_delta="-90" mouse_opaque="true" name="create_new_account_text" v_pad="0" width="185"
+	     hover="true" hover_color="50 115 185">
+Sign up for account
+	</text>
+	<text bg_visible="false" border_drop_shadow_visible="false" border_visible="false"
+	     bottom="8" drop_shadow_visible="true" follows="left|bottom"
+	     font="SansSerifSmall" font-style="UNDERLINE" h_pad="0" halign="right" height="16"
+	     left_delta="-113" mouse_opaque="true" name="forgot_password_text" v_pad="0" width="300"
+	     hover="true" hover_color="50 115 185">
+Forgot your name or password?
+	</text>
+<!--	<text bg_visible="false" border_drop_shadow_visible="false" border_visible="false"
+	     bottom="0" drop_shadow_visible="true" follows="left|bottom"
+	     font="SansSerifSmall" h_pad="0" halign="right" height="16"
+	     left_delta="100" mouse_opaque="true" name="channel_text" v_pad="0" width="200"
+	     hover="true" hover_color="50 115 185">
+[CHANNEL] [VERSION]
+	</text>  -->
+</panel>

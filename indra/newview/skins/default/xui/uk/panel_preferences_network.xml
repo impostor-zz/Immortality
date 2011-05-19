@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel name="network" label="Мережа">
+	<text name="text_box">
+		Макс.ширина каналу:
+	</text>
+  <slider name="max_bandwidth" left_delta="125"/>
+  <text name="text_box2">
+		kbps (кілобіт в секунду)
+	</text>
+	<text name="cache_size_label_l">
+		Об&apos;єм кэшу:
+	</text>
+  <slider name="cache_size" left_delta="65"/>
+  <text name="text_box5">
+		МБ
+	</text>
+	<text name="cache_location_label">
+		Шлях до кеша на диску:
+	</text>
+  <button name="open_cache_loc" label="Відкрити" width="80" tool_tip="Відкрити це розташування папки"/>
+  <button name="set_cache" label="Установити" label_selected="Установити" width="70" left_delta="60" tool_tip="Встановити нове розташування кеша"/>
+  <button name="reset_cache" label="Скинути" label_selected="Установити" left_delta="50" tool_tip="Скинути кеш розташування за замовчуванням"/>
+  <button name="open_soundcache_loc" label="Відкрити" width="80" tool_tip="Відкрити це розташування папки"/>
+  <button name="set_sound_cache" label="Установити" label_selected="Установити" width="70" left_delta="60" tool_tip="Встановити нове розташування кеша"/>/>
+  <button name="reset_sound_cache" label="Скинути" label_selected="Установити" left_delta="50" tool_tip="Скинути кеш розташування за замовчуванням"/>
+  <button name="open_chat_logs_loc" label="Відкрити" width="80" tool_tip="Відкрити це розташування папки"/>
+  <button name="set_chat_logs" label="Установити" label_selected="Установити" width="70" left_delta="60" tool_tip="Встановити нове розташування файлу журналу"/>/>
+  <button name="reset_chat_logs" label="Скинути" label_selected="Установити" left_delta="50" tool_tip="Скидання лог файл locaion за замовчуванням"/>
+  <button name="open_crash_logs_loc" label="Відкрити" width="92" tool_tip="Відкрити це розташування папки"/>
+  <text name="cannot_change_crash_label" left_delta="70">
+    (Не можна змінити)
+  </text>
+  <button name="open_user_loc" label="Відкрити" width="92" tool_tip="Відкрити це розташування папки"/>
+  <text name="cannot_change_user_label" left_delta="70">
+    (Не можна змінити)
+  </text>
+  <button label="Очистити кеш" name="clear_cache" width="105"/>
+  <check_box label="З&apos;єднання на заданий порт" name="connection_port_enabled"/>
+	<spinner label="Номер порту:" name="connection_port" width="180" label_width="105"/>
+</panel>

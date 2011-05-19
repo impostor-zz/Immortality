@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel label="Red y Carpetas" name="network">
+	<text length="1" name="text_box" type="string">
+		Ancho de banda máximo:
+	</text>
+	<text length="1" name="text_box2" type="string">
+		kbps (kilobites por segundo)
+	</text>
+  <slider left_delta="125" name="max_bandwidth"/>
+  <text name="cache_size_label_l">
+		Tamaño de la caché en disco:
+	</text>
+  <slider left_delta="145" name="cache_size" />
+  <text name="text_box5">
+		MB
+	</text>
+	<button label="Vaciar la caché" label_selected="Limpiar cache" name="clear_cache"/>
+  <button label="Inventar Cache löschen" name="clear_inv_cache"/>
+  <text name="cache_location_label">
+		Localización de la caché en el disco:
+	</text>
+  <button label="Abierto" tool_tip="" name="open_cache_loc"/>
+  <button label="Elegir" tool_tip="" name="set_cache"/>
+	<button label="Volver" tool_tip="" name="reset_cache"/>
+  <button label="Abierto" tool_tip="" name="open_soundcache_loc"/>
+  <button label="Elegir" tool_tip="" name="set_sound_cache"/>
+  <button label="Volver" tool_tip="" name="reset_sound_cache"/>
+  <button label="Abierto" tool_tip="" name="open_chat_logs_loc"/>
+  <button label="Elegir" tool_tip="" name="set_chat_logs"/>
+  <button label="Volver" tool_tip="" name="reset_chat_logs"/>
+  <button label="Abierto" tool_tip="" name="open_crash_logs_loc"/>
+  <text left_delta="70" name="cannot_change_crash_label">
+    (No se puede cambiar)
+  </text>
+  <button label="Abierto" tool_tip="" name="open_user_loc"/>
+  <text left_delta="70" name="cannot_change_user_label">
+    (No se puede cambiar)
+  </text>
+<check_box label="Personalizar el puerto de conexión" name="connection_port_enabled"/>
+	<spinner label="Número del puerto:" name="connection_port" width="180" label_width="105"/>
+</panel>

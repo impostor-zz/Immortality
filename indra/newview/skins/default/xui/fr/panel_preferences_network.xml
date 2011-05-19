@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel label="Réseau" name="network">
+	<text length="1" name="text_box" type="string">
+		Bande passante maximale :
+	</text>
+  <slider left_delta="135" name="max_bandwidth"/>
+  <text length="1" name="text_box2" type="string">
+		kbps (kilobits par seconde)
+	</text>
+  <text name="cache_size_label_l" width="210">
+		Taille de la mémoire cache :
+	</text>
+  <slider left_delta="135" name="cache_size" />
+  <text length="1" name="text_box5" type="string">
+		Mo
+	</text>
+	<button label="Vider la mémoire cache" left_delta="170" label_selected="Vider le cache" name="clear_cache" width="150"/>
+  <button width="145" left_delta="150" name="clear_inv_cache"/><!--Needs Translation-->
+  <text name="cache_location_label">
+		Emplacement du cache :
+	</text>
+  <button label="Ouvrir" width="70" tool_tip="" name="open_cache_loc"/>
+  <button label="Modifier" width="80" left_delta="50" tool_tip="" name="set_cache"/>
+	<button label="Réinitialiser" width="100" left_delta="60" tool_tip="" name="reset_cache"/>
+  <button label="Ouvrir" width="70" tool_tip="" name="open_soundcache_loc"/>
+  <button label="Modifier" width="80" left_delta="50" tool_tip="" name="set_sound_cache"/>
+  <button label="Réinitialiser" width="100" left_delta="60" tool_tip="" name="reset_sound_cache"/>
+  <button label="Ouvrir" width="70" tool_tip="" name="open_chat_logs_loc"/>
+  <button label="Modifier" width="80" left_delta="50" tool_tip="" name="set_chat_logs"/>
+  <button label="Réinitialiser" width="100" left_delta="60" tool_tip="" name="reset_chat_logs"/>
+  <button label="Ouvrir" width="70" tool_tip="" name="open_crash_logs_loc"/>
+  <text left_delta="60" name="cannot_change_crash_label">
+    (Ne peut pas changer)
+  </text>
+  <button label="Ouvrir" width="70" tool_tip="" name="open_user_loc"/>
+  <text left_delta="60" name="cannot_change_user_label">
+    (Ne peut pas changer)
+  </text>
+	<check_box label="Port de connexion personnalisé" name="connection_port_enabled"/>
+	<spinner label="Numéro de port :" label_width="95" name="connection_port" width="170"/>
+</panel>

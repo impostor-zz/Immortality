@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<panel name="network" label="네트워크">
+	<text name="text_box">
+		최대 대역폭:
+	</text>
+  <slider name="max_bandwidth" left_delta="65"/>
+  <text name="text_box2">
+		kbps (kilobits per second)
+	</text>
+	<text name="cache_size_label_l">
+		디스크 캐시 크기:
+	</text>
+  <slider name="cache_size" left_delta="90"/>
+  <text name="cache_location_label">
+		디스크 캐시 위치:
+	</text>
+  <button name="open_cache_loc" label="오픈" width="80" tool_tip="이 폴더 위치를 열기"/>
+  <button name="set_cache" label="설정" label_selected="설정" width="80" left_delta="60" tool_tip="새 캐시 위치를 설정된"/>
+  <button name="reset_cache" label="초기화" label_selected="설정" width="80" left_delta="60" tool_tip="기본 캐시 위치 다시 설정"/>
+  <text name="sound_cache_location_label">
+    사운드 캐시 위치:
+  </text>
+  <button name="open_soundcache_loc" label="오픈" width="80" tool_tip="이 폴더 위치를 열기"/>
+  <button name="set_sound_cache" label="설정" label_selected="설정" width="80" left_delta="60" tool_tip="새 캐시 위치를 설정된"/>/>
+  <button name="reset_sound_cache" label="초기화" label_selected="설정" width="80" left_delta="60" tool_tip="기본 캐시 위치 다시 설정"/>
+  <text name="chat_location_label" width="150">
+    채팅 로그 파일 위치:
+  </text>
+  <button name="open_chat_logs_loc" label="오픈" width="80" tool_tip="이 폴더 위치를 열기"/>
+  <button name="set_chat_logs" label="설정" label_selected="설정" width="80" left_delta="60" tool_tip="새 로그 파일 위치 설정된"/>/>
+  <button name="reset_chat_logs" label="초기화" label_selected="설정" width="80" left_delta="60" tool_tip="기본값으로 재설정 로그 파일 위치"/>
+  <text name="crash_location_label">
+    충돌 로그 파일 위치:
+  </text>
+  <button name="open_crash_logs_loc" label="오픈" width="80" tool_tip="이 폴더 위치를 열기"/>
+  <text name="cannot_change_crash_label" left_delta="60">
+    (변경할 수 없습니다.)
+  </text>
+  <text name="user_location_label">
+    사용자 설정 파일 위치:
+  </text>
+  <button name="open_user_loc" label="오픈" width="80" tool_tip="이 폴더 위치를 열기"/>
+  <text name="cannot_change_user_label" left_delta="60">
+    (변경할 수 없습니다.)
+  </text>
+  <button name="clear_cache" label="캐시 비우기" />
+  <button name="clear_inv_cache" label="분명 재고 캐시" width="100" left_delta="100"/>
+  <check_box name="connection_port_enabled" label="사용자 지정 포트"/>
+	<spinner name="connection_port" label="포트 번호:"/>
+</panel>

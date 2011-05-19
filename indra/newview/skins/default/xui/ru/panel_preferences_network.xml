@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<panel name="network" label="Сеть">
+	<text name="text_box">
+		Макс.ширина канала:
+	</text>
+  <slider name="max_bandwidth" left_delta="125"/>
+  <text name="text_box2">
+		kbps (килобит в секунду)
+	</text>
+	<text name="cache_size_label_l">
+		Объем кэша:
+	</text>
+  <slider name="cache_size" left_delta="75"/>
+  <text name="text_box5">
+		МБ
+	</text>
+	<text name="cache_location_label">
+		Путь к кэшу на диске:
+	</text>
+  <button name="open_cache_loc" label="Открыть" width="80" tool_tip="Открыть эту папку"/>
+  <button name="set_cache" label="Установить" label_selected="Установить" width="70" left_delta="60" tool_tip="Установить новое местоположение кэша"/>
+  <button name="reset_cache" label="Сбросить" label_selected="Установить" left_delta="50" tool_tip="Восстановить местоположение кэша по умолчанию"/>
+  <button name="open_soundcache_loc" label="Открыть" width="80" tool_tip="Открыть эту папку"/>
+  <button name="set_sound_cache" label="Установить" label_selected="Установить" width="70" left_delta="60" tool_tip="Установить новое местоположение кэша"/>/>
+  <button name="reset_sound_cache" label="Сбросить" label_selected="Установить" left_delta="50" tool_tip="Восстановить местоположение кэша по умолчанию"/>
+  <button name="open_chat_logs_loc" label="Открыть" width="80" tool_tip="Открыть эту папку"/>
+  <button name="set_chat_logs" label="Установить" label_selected="Установить" width="70" left_delta="60" tool_tip="Установить новое местоположение файла журнала"/>/>
+  <button name="reset_chat_logs" label="Сбросить" label_selected="Установить" left_delta="50" tool_tip="Сброс журнала файла locaion по умолчанию"/>
+  <button name="open_crash_logs_loc" label="Открыть" width="90" tool_tip="Открыть эту папку"/>
+  <text name="cannot_change_crash_label" left_delta="70">
+    (Не может изменить)
+  </text>
+  <button name="open_user_loc" label="Открыть" width="90" tool_tip="Открыть эту папку"/>
+  <text name="cannot_change_user_label" left_delta="70">
+    (Не может изменить)
+  </text>
+  <button name="clear_cache" label="Очистить кэш" width="105"/>
+  <check_box name="connection_port_enabled" label="Соединение на заданный порт"/>
+	<spinner name="connection_port" label="Номер порта:" width="180" label_width="105"/>
+</panel>

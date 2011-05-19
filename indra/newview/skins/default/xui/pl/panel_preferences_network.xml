@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<panel label="Sieć" name="network">
+	<text name="text_box">
+		Maksymalna Przepustowość:
+	</text>
+  <slider name="max_bandwidth" left_delta="145"/>
+  <text name="text_box2">
+		kbps (kilobity na sekundę)
+	</text>
+  <text name="cache_size_label_l">
+		Rozmiar Bufora Danych:
+	</text>
+  <slider name="cache_size" left_delta="120"/>
+  <text name="text_box5">
+		MB
+	</text>
+	<text name="cache_location_label">
+		Lokacja Bufora Danych na Dysku:
+	</text>
+  <button name="open_cache_loc" label="Otwarte" width="80"/>
+  <button name="set_cache" label="Ustaw" label_selected="Ustaw" width="70" left_delta="60"/>
+  <button name="reset_cache" label="Zresetuj" label_selected="Ustaw" left_delta="50"/>
+  <button name="open_soundcache_loc" label="Otwarte" width="80"/>
+  <button name="set_sound_cache" label="Ustaw" label_selected="Ustaw" width="70" left_delta="60"/>
+  <button name="reset_sound_cache" label="Zresetuj" label_selected="Ustaw" left_delta="50"/>
+  <button name="open_chat_logs_loc" label="Otwarte" width="80"/>
+  <button name="set_chat_logs" label="Ustaw" label_selected="Ustaw" width="70" left_delta="60"/>
+  <button name="reset_chat_logs" label="Zresetuj" label_selected="Ustaw" left_delta="50"/>
+  <button name="open_crash_logs_loc" label="Otwarte" width="80"/>
+  <text name="cannot_change_crash_label" left_delta="70">
+    (Nie można zmienić)
+  </text>
+  <button name="open_user_loc" label="Otwarte" width="80"/>
+  <text name="cannot_change_user_label" left_delta="70">
+    (Nie można zmienić)
+  </text>
+  <button name="clear_cache" label="Wyczyść"/>
+  <check_box name="connection_port_enabled" label="Port dedykowany dla aplikacji"/>
+	<spinner name="connection_port" label="Numer Portu:"/>
+</panel>
